@@ -6,5 +6,13 @@ class Vehicle
     self.wheel_size = wheel_size
     self.wheel_number = wheel_number
   end 
+  
+    def go
+    "vrrrrrrrooom!"
+  end
+ 
+  def fill_up_tank
+    "filling up!"
+  end
 
 end
